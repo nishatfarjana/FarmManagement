@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="719.0" prefWidth="869.0" style="-fx-background-color: beige;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.farmmanagement.BuyandSellController">
+   <children>
+      <Label fx:id="L1" alignment="CENTER" layoutX="-1.0" prefHeight="117.0" prefWidth="869.0" style="-fx-background-color: tan;" text="Buy &amp; Sell">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="117.0" prefHeight="603.0" prefWidth="236.0" style="-fx-background-color: silver;" />
+      <Label fx:id="L2" layoutX="543.0" layoutY="134.0" text="Buy" underline="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="L3" layoutX="321.0" layoutY="224.0" prefHeight="30.0" prefWidth="50.0" text="Date :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="L4" layoutX="321.0" layoutY="292.0" prefHeight="30.0" prefWidth="95.0" text="Selling Price :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="L5" layoutX="321.0" layoutY="360.0" prefHeight="30.0" prefWidth="125.0" text="Collecting Place :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="L6" layoutX="321.0" layoutY="428.0" prefHeight="30.0" prefWidth="95.0" text="Breed :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="L7" layoutX="321.0" layoutY="492.0" prefHeight="30.0" prefWidth="171.0" text="Code Number :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TF1" layoutX="459.0" layoutY="224.0" prefHeight="30.0" prefWidth="192.0" />
+      <TextField fx:id="TF2" layoutX="459.0" layoutY="292.0" prefHeight="30.0" prefWidth="192.0" />
+      <TextField fx:id="TF3" layoutX="459.0" layoutY="360.0" prefHeight="30.0" prefWidth="192.0" />
+      <TextField fx:id="TF4" layoutX="459.0" layoutY="428.0" prefHeight="30.0" prefWidth="192.0" />
+      <TextField fx:id="TF5" layoutX="459.0" layoutY="492.0" prefHeight="30.0" prefWidth="192.0" />
+      <Button fx:id="SubmitButton" layoutX="517.0" layoutY="586.0" mnemonicParsing="false" onAction="#SubmitButtonAction" prefHeight="41.0" prefWidth="95.0" text="Submit ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="390.0" layoutY="628.0" mnemonicParsing="false" onAction="#BackButtonClick" prefHeight="41.0" prefWidth="95.0" style="-fx-background-color: Lightgreen;" text="Back">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="ExitButton" layoutX="625.0" layoutY="628.0" mnemonicParsing="false" onAction="#ExitButtonClick" prefHeight="41.0" prefWidth="95.0" style="-fx-background-color: red;" text="Exit">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
